@@ -1,0 +1,84 @@
+body * {
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    width: 90%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.logo {
+    max-width: 150px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    /*color: #e74c3c;*/
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.success {
+    color: #27ae60; /* Green for Connection Success */
+}
+
+.error {
+    color: #e74c3c; /* Red for Connection Error */
+}
+
+.description {
+    color: #2980b9;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #3498db; /* Blue from the image */
+    color: #fff;
+    padding: 12px 0; /* Adjusted padding for height */
+    border: none;
+    border-radius: 5px; /* Slight rounding to match the image */
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase; /* Match the bold, uppercase style */
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #2980b9; /* Slightly darker blue on hover */
+}
+
+.warning {
+    color: #e67e22;
+    font-size: 12px;
+    margin-top: 15px;
+}
